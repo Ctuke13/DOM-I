@@ -68,10 +68,11 @@ navLinks[1].className = "italic";
 navLinks[2].className = "italic";
 navLinks[3].className = "italic";
 navLinks[4].className = "italic";
+navLinks[5].className = "italic";
 
 greatIdeaLogo.src = "http://localhost:9000/img/logo.png";
 
-heading.textContent = "DOM IS AWESOME!";
+heading.textContent = "DOM Is Awesome";
 heading.style.fontSize = "6.2rem";
 
 btn.textContent = "Get Started";
