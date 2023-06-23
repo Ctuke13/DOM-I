@@ -69,15 +69,15 @@ navLinks[2].className = "italic";
 navLinks[3].className = "italic";
 navLinks[4].className = "italic";
 
-greatIdeaLogo.src = "../mocks/img/logo.png";
+greatIdeaLogo.src = "http://localhost:9000/img/logo.png";
 
 heading.textContent = "DOM IS AWESOME!";
 heading.style.fontSize = "6.2rem";
 
 btn.textContent = "Get Started";
 
-ctaImg.src = "../mocks/img/cta.png";
-middleImg.src = "../mocks/img/accent.png";
+ctaImg.src = "http://localhost:9000/img/cta.png";
+middleImg.src = "http://localhost:9000/img/accent.png";
 
 mainContentHeadings[0].textContent = siteContent["main-content"]["features-h4"];
 mainContentHeadings[1].textContent = siteContent["main-content"]["about-h4"];
