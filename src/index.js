@@ -54,6 +54,7 @@ const contactP = document.querySelectorAll(".contact p");
 const greatIdeaLogo = document.querySelector("header img");
 const ctaImg = document.querySelector("section #cta-img");
 const middleImg = document.querySelector("section #middle-img");
+const footer = document.querySelector("footer a");
 
 navLinks[0].textContent = siteContent["nav"]["nav-item-1"];
 navLinks[1].textContent = siteContent["nav"]["nav-item-2"];
@@ -61,6 +62,12 @@ navLinks[2].textContent = siteContent["nav"]["nav-item-3"];
 navLinks[3].textContent = siteContent["nav"]["nav-item-4"];
 navLinks[4].textContent = siteContent["nav"]["nav-item-5"];
 navLinks[5].textContent = siteContent["nav"]["nav-item-6"];
+
+navLinks[0].className = "italic";
+navLinks[1].className = "italic";
+navLinks[2].className = "italic";
+navLinks[3].className = "italic";
+navLinks[4].className = "italic";
 
 greatIdeaLogo.src = "../mocks/img/logo.png";
 
@@ -90,6 +97,7 @@ contactP[0].textContent = siteContent.contact.address;
 contactP[1].textContent = siteContent.contact.phone;
 contactP[2].textContent = siteContent["contact"]["email"];
 
-console.log(siteContent.contact.address);
+footer.textContent = "Copyright Great Idea! 2021";
+footer.className = "bold";
 
 console.log("project wired!");
